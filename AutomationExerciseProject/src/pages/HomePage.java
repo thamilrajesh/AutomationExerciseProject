@@ -9,15 +9,15 @@ import org.openqa.selenium.support.ui.Select;
 
 public class HomePage {
 	
-	 WebDriver driver;
+WebDriver driver;
 	 
-	 @FindBy(css = "div[class='item active'] img[alt='demo website for practice']")
-	 WebElement HomePagevisible ;
+     @FindBy(css = "div[class='item active'] img[alt='demo website for practice']")
+     WebElement HomePagevisible ;
      @FindBy(css = "h2[data-qa='account-created']")
-	 WebElement accountCreatedbutton;
-	 @FindBy(css = "a[data-qa='continue-button']")
-	 WebElement continueButton;
-	 @FindBy(xpath = "//a[contains(text(),'Signup / Login')]")
+     WebElement accountCreatedbutton;
+     @FindBy(css = "a[data-qa='continue-button']")
+     WebElement continueButton;
+     @FindBy(xpath = "//a[contains(text(),'Signup / Login')]")
      WebElement signUpLoginButton;
      @FindBy(css = "div[class='signup-form'] h2")
      WebElement newUserSignup;
